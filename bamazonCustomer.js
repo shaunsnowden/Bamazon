@@ -17,7 +17,7 @@ var connection = mysql.createConnection({
 // Test Connection
 connection.connect(function(err){
   if (err) throw err;
-  console.log("Connected as id: " + connection.threadId);
+  // console.log("Connected as id: " + connection.threadId);
   mainMenu();
 });
 
@@ -49,7 +49,7 @@ function displayInventory(){
 
     for (var i = 0; i < data.length; i++){
       invSQL = "";
-      invSQL += "\n Item ID: " + data[i].itemID + " || ";
+      invSQL += "Item ID: " + data[i].itemID + " || ";
       invSQL += "Product Name: " + data[i].product_name + " || ";
       invSQL += "Department: " + data[i].department_name + " || ";
       invSQL += "Price: $" + data[i].sales_price;
@@ -65,7 +65,7 @@ function mainMenu(){
   inquirer.prompt([{
     type: 'list',
     name: 'loginChoice',
-    message: 'Employee or Customer?',
+    message: 'MAIN MENU: Employee or Customer?',
     choices: ['Employee','Customer']
   }]).then(function(answer){
     switch (answer.loginChoice){

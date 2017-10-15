@@ -31,3 +31,7 @@ VALUES ("pikachuplush", "toys", 10.50, 124),
     ("wireless_mouse", "technolgy", 19.99,32),
     ("toy4totts", "toys", 15.20, 15);
     
+-- Selection Queries --
+SELECT * FROM products WHERE itemID=2;
+UPDATE products SET stock_quant=11 WHERE itemID=11;
+    
