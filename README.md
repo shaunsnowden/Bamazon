@@ -3,7 +3,7 @@
 
 This project will require the user to run **npm install** to get the npm packages as indicated in the package.json.
 
-##bamazonCustomer.JS
+## bamazonCustomer.JS
 
 - Run the fine in the terminal using command **node bamazonCustomer.js** and follow the prompts
 
