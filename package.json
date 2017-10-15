@@ -1,0 +1,32 @@
+{
+  "name": "homework12-bamazon",
+  "version": "1.0.0",
+  "description": "University of Denver Coding Bootcamp \"Bamazon\" SQL and Node.js Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunsnowden/Bamazon.git"
+  },
+  "keywords": [
+    "SQL",
+    "Node.js",
+    "NPM"
+  ],
+  "author": "Shaun Snowden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaunsnowden/Bamazon/issues"
+  },
+  "homepage": "https://github.com/shaunsnowden/Bamazon#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "colors": "^1.1.2",
+    "express": "^4.16.2",
+    "inquire": "^0.4.8",
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
